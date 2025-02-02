@@ -19,7 +19,7 @@ int main() {
 	printf("enter the position you want to delete:");
 	scanf("%d",&pos);
 
-	for(int i = pos-1; i <size -1; i++) {
+	for(int i = pos-1; i <size-1 ; i++) {
 		a[i]=a[i+1];
 
 	}
