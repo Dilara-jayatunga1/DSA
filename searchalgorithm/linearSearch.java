@@ -48,6 +48,7 @@ public class linearSearch {
         lineSearch(arr, target);
         lS_case_2(arr, target);
         
+        sc.close();
       
         }
         
