@@ -3,8 +3,9 @@ package recursion;
 public class Tail {
   public static void print(int a)
 {
-    if (a < 1) return;
-    else
+    if (a < 1){
+        return;
+     } else
     {
         System.out.println(a);
 
